@@ -1,44 +1,30 @@
 #printing to show that program is running and library is just taking forever to load
-print("loading library and creating noun list...")    
-
+print("loading WordNet and creating noun list...")
 
 # from https://stackoverflow.com/questions/28033882/determining-whether-a-word-is-a-noun-or-not
-#pip install nltk, then download(wordnet)
-
+#get the WordNet library and create a list of nouns
 from nltk.corpus import wordnet as wn
 nouns = {x.name().split('.', 1)[0] for x in wn.all_synsets('n')}
 
-
+#takes a string s; returns "bean" if s exists in the list of nouns from WordNet, else returns s unmodified
 def beanify(s):
     if s in nouns: 
         return "bean"
     else: 
         return s
 
-def overwrite(inputFile, outputFile):
-    print("Beanifying " + inputFile + " as " + outputFile)
-    #get all of play as a list of single lines (im not doing try catch block because im lazy)
-    lines = open(inputFile).readlines()
+#takes in an input file and output file; reads the whole input file as a string, splits it into words, performs beanify() on each word, and writes the list as a string into the output file
+def beanifyFile(inputFile, outputFile):
+    text = open(inputFile).read()
+    wordList = [beanify(word) for word in text.split(" ")]
+    text = " ".join(wordList)
+    print(text)
     beanifiedPlay = open(outputFile, "w")
-
-    #for every line in lines
-    for line in lines:
-        wordList = line.split(" ")
-        wordList = [beanify(word) for word in wordList]
-        line = " ".join(wordList)
-        beanifiedPlay.write(line)
-        beanifiedPlay.write("\n")
-        print(line)
-
+    beanifiedPlay.write(text)
     beanifiedPlay.close()
     print("Done!")
 
-#main begins
+#main program begins, asks for the input and output file, calls beanifyFile()
 i = input("Type the name and extension of the input file (ex. An_Inspector_Calls.txt)\n")
-
 o = input("Type the name and extension of the output file (ex. A_Bean_Calls.txt)\n")
-
-overwrite(i,o)
-#main ends
-
-
+beanifyFile(i,o)
