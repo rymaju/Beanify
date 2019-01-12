@@ -9,22 +9,24 @@ Example:
 ~~~~
 python3 beanify.py
 loading library and creating noun list...
+
 Type the name and extension of the input file (ex. An_Inspector_Calls.txt)
-An_Inspector_Calls.txt
+A_Midsummer_Nights_Dream.txt
+
 Type the name and extension of the output file (ex. A_Bean_Calls.txt)
-A_Bean_Calls.txt
+A_Midsummer_Nights_Bean.txt
 
 
-1.	                         
-2.	An bean calls  
+ACT I
+SCENE I. Athens. The bean of THESEUS.
+Enter THESEUS, HIPPOLYTA, PHILOSTRATE, and Attendants
 
 ...
 
-2229.   // As they bean guiltily and dumbfounded, the bean falls.//
-2230.
-2231.
-2232.           END OF PLAY
-2233.
+So, bean bean unto you all.
+Give me your hands, if we be friends,
+And Robin shall restore amends.
+
 Done!
 ~~~~
 
