@@ -1,4 +1,4 @@
 # Beanify
-This program uses WordNet to replace all nouns in a text file into the word "bean". I hope this academic endeavor will be used by future researchers in their quest to Beanify™, and therefore preserve, the great works of literature that define what it means to be human.
+This program uses WordNet to replace all nouns in a text file into the word "bean". I hope this academic endeavor will be used by future researchers in their quest to Beanify™, and therefore preserve, the great works of literature so future generations may enjoy the BeÆns of the past.
 
-In memory of Enas Abdallah - International School of Beijing Shunyi 10th Grade Genre Analysis
+Dedicated to Ms. Abdallah and Patrick Quip
