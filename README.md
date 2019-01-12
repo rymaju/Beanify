@@ -10,7 +10,7 @@ Included are .txt examples downloaded from online sources. To add your own text,
 Example:
 ~~~~
 python3 beanify.py
-loading library and creating noun list...
+loading WordNet and creating noun list...
 
 Type the name and extension of the input file (ex. An_Inspector_Calls.txt)
 A_Midsummer_Nights_Dream.txt
