@@ -5,7 +5,7 @@ beanify.py uses WordNet, you need to install Wordnet through nltk: just pip inst
 
 Run beanify.py in a directory with a .txt file of what you want to beanify, the program will later prompt you for the input file and output file as input().
 
-Included are .txt examples downloaded from online sources. To add your own text, just create a .txt file with your own literature/play/poem.
+Included are .txt examples downloaded from online sources. To add your own text, just create a .txt file with your own literature/play/poem. (You might find books at https://www.gutenberg.org/browse/scores/top)
 
 Example:
 ~~~~
