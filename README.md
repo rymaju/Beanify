@@ -1,4 +1,5 @@
-## Note: I was like 17 when I made this I thought it was absolutely hilarious; it doesn't work very well and it never has but now that I'm an adult I can safely say its just as funny as it was back then!
+### Note:
+I was like 17 when I made this I thought it was absolutely hilarious; it doesn't work very well and it never has but now that I'm an adult I can safely say its just as funny now as it was back then!
 
 # Beanify
 This program uses WordNet to replace all nouns in a text file into the word "bean". I hope this academic endeavor will be used by future researchers in their quest to Beanify™, and therefore preserve, the great works of literature so future generations may enjoy the BeÆns of the past.
